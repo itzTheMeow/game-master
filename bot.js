@@ -55,7 +55,7 @@ bot.on("ready", () => {
     .then(msg => {   
       let embedContent = new Discord.RichEmbed();
       embedContent.setTitle("Server Map");
-      embedContent.setImage(new Discord.Attachment("./img/Map1.png", "Map").url);
+      embedContent.setImage(new Discord.Attachment("./img/Map1.png", "Map"));
       embedContent.setFooter("Click on the map to zoom in.");
     embedContent.setColor(bot.config.themeColor)
       msg.edit("", { embed: embedContent });
