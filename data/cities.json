@@ -1,0 +1,92 @@
+{
+  "eoshi": {
+    "cities": [
+      { "name": "Oshi", "population": 0 },
+      { "name": "Parski", "population": 0 },
+      { "name": "Edonis", "population": 0 }
+    ]
+  },
+  "golin": {
+    "cities": [
+      { "name": "Mondi", "population": 0 },
+      { "name": "Lunaris", "population": 0 },
+      { "name": "Ridgewood", "population": 0 }
+    ]
+  },
+  "logos": {
+    "cities": [
+      { "name": "Jundi", "population": 0 }
+    ]
+  },
+  "mahenia": {
+    "cities": [
+      { "name": "Mitsukuni", "population": 0 },
+      { "name": "Takashi", "population": 0 },
+      { "name": "Oriski", "population": 0 }
+    ]
+  },
+  "sylvaki": {
+    "cities": [
+      { "name": "Syli", "population": 0 },
+      { "name": "Slevaki", "population": 0 },
+      { "name": "Waski", "population": 0 }
+    ]
+  },
+  "yargos": {
+    "cities": [
+      { "name": "Delund", "population": 0 },
+      { "name": "Telund", "population": 0 },
+      { "name": "Zacoros", "population": 0 },
+      { "name": "Selund", "population": 0 },
+      { "name": "Pelundi", "population": 0 }
+    ]
+  },
+  "argos": {
+    "cities": [
+      { "name": "Firus", "population": 0 },
+      { "name": "Aquais", "population": 0 },
+      { "name": "Terratri", "population": 0 },
+      { "name": "Aria", "population": 0 }
+    ]
+  },
+  "monole": {
+    "cities": [
+      { "name": "Rachet", "population": 0 },
+      { "name": "Lanch", "population": 0 }
+    ]
+  },
+  "meleodis": {
+    "cities": []
+  },
+  "yarlos": {
+    "cities": [
+      { "name": "Moski", "population": 0 }
+    ]
+  },
+  "promethius": {
+    "cities": [
+      { "name": "Britania", "population": 0 }
+    ]
+  },
+  "promos": {
+    "cities": [
+      { "name": "Sanctuary City", "population": 0 },
+      { "name": "Sunken Forest", "population": 0 }
+    ]
+  },
+  "gilmoore": {
+    "cities": []
+  },
+  "the_dark_zone": {
+    "cities": [
+      { "name": "Scorched", "population": 0 },
+      { "name": "The Lych's Lair", "population": 0 },
+      { "name": "The Rift", "population": 0 }
+    ]
+  },
+  "athens": {
+    "cities": [
+      { "name": "Reprive", "population": 0 }
+    ]
+  }
+}
