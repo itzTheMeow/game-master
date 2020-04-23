@@ -1,6 +1,7 @@
 const Discord = require("discord.js");
 const bot = new Discord.Client();
 const fs = require("fs");
+const imgur = require("imgur-uploader")
 /* create client and require packages */
 
 const config = require("./config.json");
@@ -53,12 +54,14 @@ bot.on("ready", () => {
     .get("702710258333909062")
     .fetchMessage("702711172801232937")
     .then(msg => {   
-      let embedContent = new Discord.RichEmbed();
-      embedContent.setTitle("Server Map");
-      embedContent.setImage(new Discord.Attachment("./img/Map1.png", "Map"));
-      embedContent.setFooter("Click on the map to zoom in.");
-    embedContent.setColor(bot.config.themeColor)
-      msg.edit("", { embed: embedContent });
+      imgur(fs.readFileSync('img/Map1.png')).then(data => {
+        let embedContent = new Discord.RichEmbed();
+        embedContent.setTitle("Server Map");
+        embedContent.setImage(data.link);
+        embedContent.setFooter("Click on the map to zoom in.");
+        embedContent.setColor(bot.config.themeColor)
+        msg.edit("", { embed: embedContent });
+      });
     });
 });
 
