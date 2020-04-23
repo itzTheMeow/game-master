@@ -1,0 +1,114 @@
+{
+  "short_sword": {
+    "damage": 2,
+    "armorIgnore": 0,
+    "ammo": {},
+    "preparation": false,
+    "noKill": false,
+    "twoHanded": false
+  },
+  "bastard_sword": {
+    "damage": 4,
+    "armorIgnore": 0,
+    "ammo": {},
+    "preparation": false,
+    "noKill": false,
+    "twoHanded": false
+  },
+  "two_handed_sword": {
+    "damage": 7,
+    "armorIgnore": 0,
+    "ammo": {},
+    "preparation": false,
+    "noKill": false,
+    "twoHanded": true
+  },
+  "two_handed_club": {
+    "damage": 7,
+    "armorIgnore": 10,
+    "ammo": {},
+    "preparation": false,
+    "noKill": false,
+    "twoHanded": true
+  },
+  "spear": {
+    "damage": 3,
+    "armorIgnore": 0,
+    "ammo": {},
+    "preparation": false,
+    "noKill": false,
+    "twoHanded": false
+  },
+  "axe": {
+    "damage": 3,
+    "armorIgnore": 20,
+    "ammo": {},
+    "preparation": false,
+    "noKill": false,
+    "twoHanded": false
+  },
+  "whip": {
+    "damage": 2,
+    "armorIgnore": 0,
+    "ammo": {},
+    "preparation": false,
+    "noKill": false,
+    "twoHanded": false
+  },
+  "flanged_mace": {
+    "damage": 2,
+    "armorIgnore": 40,
+    "ammo": {},
+    "preparation": false,
+    "noKill": false,
+    "twoHanded": false
+  },
+  "club": {
+    "damage": 3,
+    "armorIgnore": 0,
+    "ammo": {},
+    "preparation": false,
+    "noKill": true,
+    "twoHanded": false
+  },
+  "bow": {
+    "damage": 5,
+    "armorIgnore": 35,
+    "ammo": { "name": "arrow", "expel": 1 },
+    "preparation": false,
+    "noKill": false,
+    "twoHanded": true
+  },
+  "crossbow": {
+    "damage": 4,
+    "armorIgnore": 40,
+    "ammo": { "name": "crossbow_bolt", "expel": 1 },
+    "preparation": true,
+    "noKill": false,
+    "twoHanded": false
+      },
+  "flintlock_pistol": {
+    "damage": 4,
+    "armorIgnore": 30,
+    "ammo": { "name": "bullet", "expel": 1 },
+    "preparation": true,
+    "noKill": false,
+    "twoHanded": false
+      },
+  "large_crossbow": {
+    "damage": 8,
+    "armorIgnore": 25,
+    "ammo": { "name": "crossbow_bolt_large", "expel": 1 },
+    "preparation": true,
+    "noKill": false,
+    "twoHanded": true
+  },
+  "blunderbuss": {
+    "damage": 6,
+    "armorIgnore": 20,
+    "ammo": { "name": "bullet", "expel": 1 },
+    "preparation": true,
+    "noKill": false,
+    "twoHanded": true
+  }
+}
