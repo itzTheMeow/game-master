@@ -10,7 +10,6 @@ bot.prefix = config.prefix;
 
 bot.data = {
   cities: require("./data/cities.json"),
-  images: require("./data/images.json"),
   weapons: require("./data/weapons.json")
 };
 
@@ -53,12 +52,10 @@ bot.on("ready", () => {
   bot.channels
     .get("702710258333909062")
     .fetchMessage("702711172801232937")
-    .then(msg => {
-    if(msg.embeds[0].image.url == bot.data.images.MapWithLabels.src + "#v" + bot.data.images.MapWithLabels.ver) return;
-    
+    .then(msg => {   
       let embedContent = new Discord.RichEmbed();
       embedContent.setTitle("Server Map");
-      embedContent.setImage(bot.data.images.MapWithLabels.src + "#v" + bot.data.images.MapWithLabels.ver);
+      embedContent.setImage("./img/Map1.png");
       embedContent.setFooter("Click on the map to zoom in.");
     embedContent.setColor(bot.config.themeColor)
       msg.edit("", { embed: embedContent });
