@@ -96,6 +96,8 @@ bot.on("message", message => {
 
     cmd.run(bot, message, args);
     /* run the command */
+  } else {
+    require("./modules/chatFilter.js")(bot, message)
   }
 });
 
