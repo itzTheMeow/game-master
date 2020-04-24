@@ -402,4 +402,4 @@ Now if you don't have a party member and you're reduced to 0hp you will be respa
 
 
 
-Meow Succs Dicc
+Qrow Succs Dicc
