@@ -399,3 +399,7 @@ This is known as a critical state. If you're then hit again, you'll be incapacit
 You'll be carried to saftey by the strongest capable fighter. In this state you are incapacitated and can't move on your own.
 The only way to heal at that point is to be healed by a doctor with medicine in a medical tent.
 Now if you don't have a party member and you're reduced to 0hp you will be respawned at the last city you were in.
+
+
+
+Meow Succs Dicc
