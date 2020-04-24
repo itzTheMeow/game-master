@@ -101,4 +101,4 @@ bot.on("message", message => {
   }
 });
 
-bot.login("NzAyNTMwODg1MTIzMDQ3NDQz.XqBaFg.M9VO6lrMp789bryZlLHiv9f4268");
+bot.login(config.token);
