@@ -10,7 +10,7 @@ module.exports = async (bot, message) => {
         while(censor.length !== word.length) {
             censor.push("\\*")
         }
-        eval(`content.replace(/${word}/g, "${censor}")`)
+        content.replace(new RegExp(word,"g"), censor)
     })
 
     await hook.edit({name: message.member.nickname, avatar: message.author.displayAvatarURL})
