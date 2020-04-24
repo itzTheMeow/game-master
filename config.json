@@ -1,4 +1,5 @@
 {
   "prefix":"-",
-  "themeColor": "#8a0303"
+  "themeColor": "#8a0303",
+  "badWords": ["nigger", "discord.gg/", "faggot", "fag"]
 }
