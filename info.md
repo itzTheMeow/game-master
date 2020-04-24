@@ -10,6 +10,7 @@
 - Fighting Style(s)
 - Level
 - Abilities
+- Gender
 
 # Specials
 - **Strength**<br>
@@ -403,3 +404,4 @@ Now if you don't have a party member and you're reduced to 0hp you will be respa
 
 
 Qrow Succs Dicc
+Nah bro
