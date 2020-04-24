@@ -13,7 +13,7 @@ module.exports = async (bot, message) => {
         content.replace(new RegExp(word,"g"), censor)
     })
 
-    await hook.edit(message.member.nickname, message.author.displayAvatarURL)
+    await hook.edit(message.member.nickname || message.author.username, message.author.displayAvatarURL)
     await hook.send(content)
     await hook.edit("CHAT WEBHOOK", message.guild.iconURL)
 
