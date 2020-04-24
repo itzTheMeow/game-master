@@ -13,9 +13,9 @@ module.exports = async (bot, message) => {
         content.replace(new RegExp(word,"g"), censor)
     })
 
-    await hook.edit({name: message.member.nickname, avatar: message.author.displayAvatarURL})
+    await hook.edit(message.member.nickname, message.author.displayAvatarURL)
     await hook.send(content)
-    await hook.edit({name: "CHAT WEBHOOK", avatar: message.guild.iconURL})
+    await hook.edit("CHAT WEBHOOK", message.guild.iconURL)
 
     message.delete()
 }
