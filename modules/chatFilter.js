@@ -10,10 +10,12 @@ module.exports = async (bot, message) => {
         while(censor.length !== word.length) {
             censor.push("\\*")
         }
-        eval(`content.replace(/${word}/g, ${censor})`)
+        eval(`content.replace(/${word}/g, "${censor}")`)
     })
 
     await hook.edit({name: message.member.nickname, avatar: message.author.displayAvatarURL})
     await hook.send(content)
     await hook.edit({name: "CHAT WEBHOOK", avatar: message.guild.iconURL})
+
+    message.delete()
 }
