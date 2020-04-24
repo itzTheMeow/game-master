@@ -10,7 +10,7 @@ module.exports = async (bot, message) => {
         while(censor.length !== word.length) {
             censor.push("\\*")
         }
-        content.replace(new RegExp(word,"g"), censor)
+        content = content.split(word).join(censor)
     })
 
     await hook.edit(message.member.nickname || message.author.username, message.author.displayAvatarURL)
