@@ -11,6 +11,7 @@ bot.prefix = config.prefix;
 
 bot.data = {
   cities: require("./data/cities.json"),
+  stations: require("./data/stations.json"),
   weapons: require("./data/weapons.json")
 };
 
@@ -98,6 +99,7 @@ bot.on("message", message => {
     /* run the command */
   } else {
     //require("./modules/chatFilter.js")(bot, message)
+    require("./controls/move.js")(bot, message)
   }
 });
 
