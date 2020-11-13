@@ -1,6 +1,6 @@
 # The Bot
 **Bot Name:** Game Master<br>
-**Bot Icon:** ![](https://cdn.discordapp.com/attachments/702585176697602199/702595347293274142/Game_Master_Logo.PNG)
+**Bot Icon:** ![](https://cdn.discordapp.com/attachments/702585176697602199/702595347293274142/Game_Master_Logo.PNG)<br>
 **Bot Prefix:** g!<br>
 **Bot ID:** 702530885123047443
 
